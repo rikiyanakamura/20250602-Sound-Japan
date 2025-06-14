@@ -13,7 +13,7 @@ her2_mapping = {'0': 0, '1+': 1, '2+': 2, '3+': 3}
 her2_protein_mapping = {'Negative': 0, 'Positive': 1, 'Unknown': -1}
 
 # モデル読み込み
-model = joblib.load("model.pkl")
+model = joblib.load("rf_model.pkl")
 
 st.title("Lymph Node Metastasis Prediction")
 
